@@ -1,0 +1,11 @@
+1) The only thing that has changed between parts 1-3 and part 4 is
+   that keywords (such as WHILE, IF, BREAK, etc.) now have their own
+   separate tokens rather than being part of the ID token. RELOP was also
+   renamed to COMPARE
+
+2) How to run:
+%   make
+%   ./lexer input.c--
+
+3) The test output is in ...lexer/typescript
+4) The test used was ...test_suite/testsometokens.c--
